@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color:bisque;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:cadetblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+}
+
+.bodyimg{
+    position:relative;
+    text-align: center;
+}
+
+.imagetext{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: larger;
+    font-weight: 1000;
+    color:palevioletred;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.origami{
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    width: 310px;
+    font-family: fantasy;
+}
